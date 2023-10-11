@@ -12,6 +12,6 @@ class ProductController extends Controller
     }
 
     public function detail(){
-        return view ('products.detail');
+        return view('details');
     }
 }
